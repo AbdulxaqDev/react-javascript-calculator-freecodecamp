@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+.App {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #cecece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Share Tech Mono", monospace;
+  user-select: none;
+}
+
+#screen {
+  background-color: #b0b0b0;
+  margin: 0 auto 10px;
+  min-height: 5rem;
+  width: 100%;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  letter-spacing: -2px;
+  border: whitesmoke solid 2px;
+}
+
+#frame {
+  width: 20rem;
+}
+
+#sub-display {
+  min-height: 2rem;
+  max-width: 20rem;
+  width: 100%;
+  border-bottom: rgb(165, 165, 165) solid 1px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 5px 5px;
+  color: rgb(232, 151, 0);
+  background-color: rgb(88, 88, 88);
+  word-break: break-all;
+}
+
+#display {
+  min-height: 2.8rem;
+  max-width: 20rem;
+  border-radius: 0 0 10px 10px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0 5px 5px;
+  word-break: break-all;
+
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 10px;
+  padding: 5px;
+  height: 25rem;
+  width: 20rem;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(0, 0, 0, 0.12);
+  padding-right: 3px;
+  border-radius: 10px;
+}
+
+button {
+  font-family: "Share Tech Mono", monospace;
+  outline: none;
+  border: none;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+button:active {
+  box-shadow: -5px -5px 3px rgba(255, 255, 255, 0.3),
+    5px 5px 3px rgba(0, 0, 0, 0.03);
+}
+
+#equals {
+  grid-column: 4/5;
+  grid-row: 4/6;
+  background-color: rgb(79, 79, 200);
+  border: 3px solid whitesmoke;
+}
+
+#zero {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+#decimal {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+#clear {
+  background-color: indianred;
+  border: 3px solid whitesmoke;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+button:hover {
+  scale: 1.05;
+  opacity: 0.9;
+}
