@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-javascript-calculator-freecodecamp/static/css/main.dff29179.css",
+    "main.js": "/react-javascript-calculator-freecodecamp/static/js/main.0ee9b910.js",
+    "static/js/787.67bed5e2.chunk.js": "/react-javascript-calculator-freecodecamp/static/js/787.67bed5e2.chunk.js",
+    "index.html": "/react-javascript-calculator-freecodecamp/index.html",
+    "main.dff29179.css.map": "/react-javascript-calculator-freecodecamp/static/css/main.dff29179.css.map",
+    "main.0ee9b910.js.map": "/react-javascript-calculator-freecodecamp/static/js/main.0ee9b910.js.map",
+    "787.67bed5e2.chunk.js.map": "/react-javascript-calculator-freecodecamp/static/js/787.67bed5e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dff29179.css",
+    "static/js/main.0ee9b910.js"
+  ]
+}
